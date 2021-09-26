@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:background="#00000000" android:orientation="vertical" android:layout_height="wrap_content">
+	<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/img_shelf">
+		<FrameLayout android:id="@+id/fl_book00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/fl_book6">
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/character1">
+			</LinearLayout>
+		</FrameLayout>
+		<FrameLayout android:id="@+id/fl_book11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom" android:paddingLeft="16px" android:paddingRight="16px" android:layout_centerInParent="true">
+			<LinearLayout android:id="@+id/ll_book11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_11" android:clickable="false"/>
+			<LinearLayout android:id="@+id/ll_read11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_reading" android:visibility="gone"/>
+			<TextView android:id="@+id/btn_comm11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_book_buy" android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="40dp" />
+		</FrameLayout>
+		<FrameLayout android:visibility="visible" android:id="@+id/fl_book12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom" android:layout_toRightOf="@+id/fl_book11">
+			<LinearLayout android:id="@+id/ll_book12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_12" android:layout_gravity="center_horizontal"/>
+			<LinearLayout android:id="@+id/ll_read12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_reading" android:layout_gravity="center_horizontal" android:visibility="gone"/>
+			<TextView android:id="@+id/btn_comm12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal" android:background="@drawable/btn_book_buy" android:layout_marginBottom="40dp"/>
+		</FrameLayout>
+	
+	</RelativeLayout>
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/img_shelf" android:layout_gravity="bottom|center_horizontal" android:gravity="center_horizontal">
+		<FrameLayout android:visibility="invisible" android:id="@+id/fl_book8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal" >
+			<LinearLayout android:id="@+id/ll_book8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_08" android:layout_gravity="center_horizontal"/>
+			<LinearLayout android:id="@+id/ll_read8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_reading" android:layout_gravity="center_horizontal" android:visibility="gone"/>
+			<TextView android:id="@+id/btn_comm8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal" android:background="@drawable/btn_book_buy" android:layout_marginBottom="40dp"/>
+		</FrameLayout>
+		<FrameLayout android:visibility="invisible" android:id="@+id/fl_book4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal" android:paddingLeft="16px" android:paddingRight="16px">
+			<LinearLayout android:id="@+id/ll_book4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_04" android:layout_gravity="center_horizontal"/>
+			<LinearLayout android:id="@+id/ll_read4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_reading" android:layout_gravity="center_horizontal" android:visibility="gone"/>
+			<TextView android:id="@+id/btn_comm4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal" android:background="@drawable/btn_book_buy" android:layout_marginBottom="40dp"/>
+		</FrameLayout>
+		<FrameLayout android:visibility="invisible" android:id="@+id/fl_book5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal">
+			<LinearLayout android:id="@+id/ll_book5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_05" android:layout_gravity="center_horizontal"/>
+			<LinearLayout android:id="@+id/ll_read5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/img_book_reading" android:layout_gravity="center_horizontal" android:visibility="gone"/>
+			<TextView android:id="@+id/btn_comm5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal" android:background="@drawable/btn_book_buy" android:layout_marginBottom="40dp"/>
+		</FrameLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">졸라맨 트랜스포머</string>
+    <string name="purchase_title">상품 구매</string>
+    <string name="purchase_message">상품을 구매합니다.\n2000원을 결하시겠습니까?</string>
+    <string name="purchase_yes">구매하기</string>
+    <string name="purchase_cancel">취소</string>
+    <string name="msg_network_error_finish">서버와 연결이 원활하지 않습니다. APP종료 후 다시 시도해 주세요.</string>
+    <!-- 
+    - PID
+0900340886 졸라맨 12권 
+0900340885 졸라맨 11권 
+0900340884 졸라맨 10권
+0900340883 졸라맨 9권 
+0900340882 졸라맨 8권 
+0900340881 졸라맨 7권 
+0900340880 졸라맨 6권 
+0900340878 졸라맨 5권  
+0900340877 졸라맨 4권 
+0900340876 졸라맨 3권 
+0900340875 졸라맨 2권
+    -->
+
+</resources>

@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- CONTENT VIEW -->
+
+    <com.strastar.classlist.SwipeView
+        android:id="@+id/mainFolderView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="60dp" />
+
+    <com.strastar.classlist.PageControl
+        android:id="@+id/mainPageControl"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" />
+
+</RelativeLayout>

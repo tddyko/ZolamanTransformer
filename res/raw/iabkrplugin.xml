@@ -1,0 +1,5 @@
+<resources>
+	<set name="delayOnFinish">100</set>
+	<!-- skt 1초 이내 : kt/lgu는 6000 : 기본은 7000 -->
+	<set name="delayOnError">500</set>	
+</resources>

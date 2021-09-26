@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" android:background="@drawable/bg_repeat">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/img_bg2_comm">
+<!-- 
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/img_top" />  -->
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/logo" />
+	    
+		<FrameLayout android:id="@+id/fl_flipper" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		
+			<com.strastar.zolaman.classlist.SwipeView
+									android:layout_alignParentTop="true"
+									android:id="@+id/mainSwipeView"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent"
+									android:paddingBottom="30px"
+									/>
+			<com.strastar.zolaman.classlist.PageControl
+									android:id="@+id/mainPageControl"
+									android:background="@drawable/clear"
+									android:orientation="horizontal"
+									android:layout_width="fill_parent"
+									android:layout_gravity="bottom|center_horizontal"
+									android:layout_height="30dp"
+									android:layout_centerHorizontal="true"/>
+			
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

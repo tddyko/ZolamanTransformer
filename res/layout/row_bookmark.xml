@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@color/white">
+	<LinearLayout android:layout_width="fill_parent" android:gravity="center_vertical" android:padding="5dp" android:layout_height="wrap_content" >
+		<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tv_bookmark" android:textColor="@color/black" android:textStyle="bold" android:textSize="18dp" android:text="졸라맨 건즈 1권 - 1페이지" android:layout_weight="1" android:layout_marginRight="5dp"></TextView>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_delete" android:text="삭제" android:textColor="@color/white" android:paddingBottom="5dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="5dp" android:textSize="13dp" android:background="@drawable/button_background_red"></Button>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:background="#e0e0e0" android:layout_height="1px"/>
+</LinearLayout>-->
+
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:paddingRight="5dp" android:layout_height="wrap_content" android:focusable="false" android:background="@color/white">
+  	<LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayout01" android:layout_height="82px"/>
+
+	<TextView
+	    android:id="@+id/tv_bookmark"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_margin="5dp"
+	    android:paddingBottom="5dp"
+	    android:paddingRight="50dp"
+	    android:paddingTop="5dp"
+	    android:text="졸라맨 건즈 스페샬 특별판 절대 못산다. 1권 - 1페이지"
+	    android:textColor="@color/black"
+	    android:textSize="18dp"
+	    android:textStyle="bold" >
+
+</TextView>
+	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_delete" android:text="삭제" android:textColor="@color/white" android:paddingBottom="5dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="5dp" android:textSize="13dp" android:background="@drawable/button_background_red" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_margin="5dp" android:focusable="false"></Button>
+</RelativeLayout>

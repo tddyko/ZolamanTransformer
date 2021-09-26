@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+	<corners android:radius="3dip" /><!--
+	파란 그라데이션 = 위    : #FF7b9ee9
+               중간  : #FF376fe0
+               아래  : #FF2463de
+	--><gradient
+		android:angle="90"
+		android:centerColor="#376fe0"
+		android:startColor="#7b9ee9"
+		android:endColor="#2463de" />
+    <stroke android:width="1px" android:color="@color/darkgray" />
+    <padding android:left="1dp" android:top="1dp"
+            android:right="1dp" android:bottom="1dp" />
+</shape>
